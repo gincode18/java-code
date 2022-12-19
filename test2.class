@@ -1,0 +1,54 @@
+NAME VISHAL
+
+import java.util.Scanner;
+import java.util.Arrays;
+class STrings{
+ public int n;
+ public String x[]=new String[100];
+
+
+
+
+
+}
+class concat extends STrings{
+ String y[]=new String[100];
+ int temp=0;
+ void display(){
+ for(int i=0; i<n;i++){
+ for(int j=0;j<n;j++){
+ if(x[i].length()==x[j].length() & i!=j){
+ y[temp]=x[i]+x[j];
+ temp++;
+
+ }
+ }
+ }
+ }
+ void sort(){
+
+ for(int i=0;i<y.length();i++){
+ for(int j= 0;j<y.length();j++){
+ if(){}
+
+ }
+ }
+}
+}
+class test2{
+public static void main(String args[]){
+Scanner c= new Scanner(System.in);
+concat z=new concat();
+z.n=c.nextInt();
+for(int i=0;i<z.n;i++){
+ z.x[i]=c.next();
+
+}
+NAME VISHAL
+
+ z.display();
+ for(int i=0;i<=temp;i++){
+System.out.print(z.y[i]);
+}
+}
+}

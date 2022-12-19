@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch test1",
+            "request": "launch",
+            "mainClass": "labfat.test1",
+            "projectName": "Java_7f55e55d"
+        }
+    ]
+}
